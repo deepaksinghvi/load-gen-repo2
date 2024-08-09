@@ -1,0 +1,13 @@
+{
+  "jmeter_version" : "5.6.3",
+  "tasks": [
+    {
+    "task_name": "read-traffic",
+    "script_name": "use-case-5.jmx",
+    "user_files": "users1.csv",
+    "data_files": {
+        "contact_file" : "contacts.csv"
+      }
+    }
+  ]
+}
